@@ -1,4 +1,4 @@
-import "./featuredInfo.css";
+import "./FeaturedInfo.css";
 import SouthIcon from "@mui/icons-material/South";
 import NorthIcon from '@mui/icons-material/North';
 
