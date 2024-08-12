@@ -4,6 +4,8 @@ import "./app.css";
 import Home from "./Pages/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UserList from "./Pages/userList/UserList";
+import User from "./components/user/User";
+import NewUser from "./Pages/newUser/NewUser";
 
 export const App = () => {
   return (
@@ -14,6 +16,8 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/users" element={<UserList />}/>
+          <Route path="/users/:usersId" element={<User />}/>
+          <Route path="/newuser" element={<NewUser />}/>
         </Routes>
       </div>
     </Router>

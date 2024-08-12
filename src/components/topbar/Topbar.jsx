@@ -1,16 +1,16 @@
-import "./topbar.css"
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import SettingsIcon from '@mui/icons-material/Settings';
-import LanguageIcon from '@mui/icons-material/Language';
+import "./topbar.css";
+import NotificationsIcon from "@mui/icons-material/Notifications";
+import SettingsIcon from "@mui/icons-material/Settings";
+import LanguageIcon from "@mui/icons-material/Language";
 
 const Topbar = () => {
   return (
     <div className="topbar">
       <div className="topbarWrapper">
-         <div className="topLeft">
+        <div className="topLeft">
           <span className="logo">Mohsin Dev</span>
-         </div>
-         <div className="topRight">
+        </div>
+        <div className="topRight">
           <div className="topbarIconsContainer">
             <NotificationsIcon />
             <span className="topIconBag">2</span>
@@ -23,9 +23,9 @@ const Topbar = () => {
             <SettingsIcon />
           </div>
           <img src="./image/img.jpg" alt="" className="topAvatar" />
-         </div>
+        </div>
       </div>
     </div>
-  )
-}
-export default Topbar
+  );
+};
+export default Topbar;
