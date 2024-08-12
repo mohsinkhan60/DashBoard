@@ -1,0 +1,53 @@
+.widgetLg{
+   flex: 2;
+   box-shadow: 4px 9px 25px -2px rgba(0,0,0,0.66);
+   -webkit-box-shadow: 4px 9px 25px -2px rgba(0,0,0,0.66);
+   -moz-box-shadow: 4px 9px 25px -2px rgba(0,0,0,0.66);
+   padding: 20px;
+}
+.widgetLgTitle{
+   font-size: 22px;
+   font-weight: 600;
+}
+.widgetLgImg{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-right: 10px;
+}
+.widgetLgButton{
+   border: none;
+   padding: 5px 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.widgetLgButton.Approved{
+   background-color: #e5faf2;
+   color: #3bb077;
+}
+.widgetLgButton.Pending{
+   background-color: #ebf1fe;
+   color: #2b59b6;
+}
+.widgetLgButton.Declined{
+   background-color: #fcd9d9;
+   color: #b00020;
+}  
+.widgetLgTable{
+   width: 100%;
+   border-spacing: 20px;
+   /* border-collapse: collapse; */
+   margin: 30px 0;
+}
+.widgetLgTh{
+   text-align: left;
+}
+.widgetLgUser{
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+}
+.widgetLgDate, .widgetLgAmount{
+   font-weight: 300;
+}

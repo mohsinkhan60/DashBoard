@@ -37,7 +37,7 @@ export const Sidebar = () => {
          <div className="sidebarMenu">
             <h3 className="sidebarTitle">Quick Menu</h3>
             <ul className="sidebarList">
-               <li className="sidebarListItem active">
+               <li className="sidebarListItem">
                <PermIdentityIcon className="sidebarIcon" />
                User
                </li>
@@ -59,7 +59,7 @@ export const Sidebar = () => {
          <div className="sidebarMenu">
             <h3 className="sidebarTitle">Notifications</h3>
             <ul className="sidebarList">
-               <li className="sidebarListItem active">
+               <li className="sidebarListItem">
                <MailOutlineIcon className="sidebarIcon" />
                Mail
                </li>
@@ -77,7 +77,7 @@ export const Sidebar = () => {
          <div className="sidebarMenu">
             <h3 className="sidebarTitle">staff</h3>
             <ul className="sidebarList">
-               <li className="sidebarListItem active">
+               <li className="sidebarListItem">
                <PortraitIcon className="sidebarIcon" />
                Manage
                </li>
