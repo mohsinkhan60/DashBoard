@@ -14,13 +14,13 @@ const UserList = () => {
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
     {
-      field: "User",
-      headerName: "Users",
+      field: "Product",
+      headerName: "Product",
       width: 200,
       renderCell: (params) => {
         return (
-          <div className="userListUser">
-            <img className="userListImg" src={params.row.avatar} alt="" />
+          <div className="ProductListUser">
+            <img className="ProductListImg" src={params.row.img} alt="" />
             {params.row.UserName}
           </div>
         );
